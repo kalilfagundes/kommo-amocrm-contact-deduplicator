@@ -1,0 +1,22 @@
+{
+    "account[subdomain]": "company_name",
+    "account[id]": "00000000",
+    "account[_links][self]": "https://company_name.amocrm.com",
+    "contacts[add][0][id]": "00000000",
+    "contacts[add][0][name]": "Full Name",
+    "contacts[add][0][responsible_user_id]": "00000000",
+    "contacts[add][0][group_id]": "000000",
+    "contacts[add][0][date_create]": "1766158291",
+    "contacts[add][0][last_modified]": "1766158291",
+    "contacts[add][0][created_user_id]": "00000000",
+    "contacts[add][0][modified_user_id]": "00000000",
+    "contacts[add][0][account_id]": "00000000",
+    "contacts[add][0][custom_fields][0][id]": "000000",
+    "contacts[add][0][custom_fields][0][name]": "Telefone",
+    "contacts[add][0][custom_fields][0][values][0][value]": "0000000000",
+    "contacts[add][0][custom_fields][0][values][0][enum]": "000000",
+    "contacts[add][0][custom_fields][0][code]": "PHONE",
+    "contacts[add][0][created_at]": "1766158291",
+    "contacts[add][0][updated_at]": "1766158291",
+    "contacts[add][0][type]": "contact"
+}

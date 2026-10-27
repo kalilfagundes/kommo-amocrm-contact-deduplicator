@@ -20,3 +20,6 @@ coverage/
 
 # Environment
 .env
+
+# Runtime credentials (copy tokens.example.json to tokens.json)
+tokens.json

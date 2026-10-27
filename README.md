@@ -67,7 +67,7 @@ IMPORTANT: Selection fields values are prioritized based on contact creation dat
 ## 🚀 Steps to run
 
 1. Create an Integration, configure it in Kommo/AmoCRM and get the client ID, client secret, redirect URI and Authorization Code.
-2. Get the first access_token and refresh_token via https://developers.kommo.com/reference/get-token and add it to tokens.json. From this, the server will refresh the tokens every 23 hours.
+2. Copy `tokens.example.json` to `tokens.json`, then get the first access_token and refresh_token via https://developers.kommo.com/reference/get-token and add them to it, along with the `csrf_token` and `session_id` cookies from a logged-in Kommo browser session. `tokens.json` is gitignored, so these credentials stay local. From this, the server will refresh the tokens every 23 hours.
 3. Configure .env file using .env.example as template
 4. Run the server using docker.
 5. Configure a webhook in Kommo CRM for added contacts to be sent to your server's URL (port 3000)
